@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">All IN ONE</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="area">AREA</string>
+    <string name="currency">CURRENCY</string>
+    <string name="energy">ENERGY</string>
+    <string name="length">LENGTH</string>
+    <string name="power">POWER</string>
+    <string name="temperature">TEMPERATURE</string>
+    <string name="velocity">VELOCITY</string>
+    <string name="volume">VOLUME</string>
+    <string name="weight">WEIGHT</string>
+
+
+    <string-array name="weightunit">
+        <item name="weightunitkg">Kg</item>
+        <item name="weightunitgm">gm</item>
+        <item name="weightunitlb">lb</item>
+        <item name="weightunitounce">ounce</item>
+        <item name="weightunitmg">mg</item>
+    </string-array>
+    <string-array name="temperatureunit">
+        <item name="temperatureunitc">Celsius</item>
+        <item name="temperatureunitf">Fahrenheit</item>
+    </string-array>
+    <string-array name="lengthunit">
+        <item name="lengthunitcm">cm</item>
+        <item name="lengthunitm">m</item>
+        <item name="lengthunitmm">mm</item>
+        <item name="lengthunitkm">km</item>
+        <item name="lengthunitfeet">ft</item>
+        <item name="lengthunitmile">mile</item>
+        <item name="lengthunitinch">inch</item>
+    </string-array>
+    <string-array name="powerunit">
+        <item name="powerunithorseposer">horsepower</item>
+        <item name="powerunitwatts">watts</item>
+        <item name="powerunitkilowatts">kilowatts</item>
+    </string-array>
+    <string-array name="energyunit">
+        <item name="energyunitcalories">calories</item>
+        <item name="energyunitjoules">joules</item>
+        <item name="energyunitkilocalories">kilocalories</item>
+    </string-array>
+
+    <string-array name="velocityunit">
+        <item name="velocityunitkmph">Km/hr</item>
+        <item name="velocityunitmeterpers">m/s</item>
+        <item name="velocityunitmilesperh">miles/hr</item>
+        <item name="velocityunitfeetpers">feet/s</item>
+    </string-array>
+    <string-array name="areaunits">
+        <item name="areaunitsqmm">square mm</item>
+        <item name="areaunitsqm">square m</item>
+        <item name="areaunitsqcm">square cm</item>
+        <item name="areaunitsqkm">square km</item>
+        <item name="areaunitsqmiles">square miles</item>
+        <item name="areaunitsqyard">square yards</item>
+    </string-array>
+    <string-array name="volumeunit">
+        <item name="volumeunitmillilitres">millilitre</item>
+        <item name="volumeunitlitres">litre</item>
+        <item name="volumeunitcubicmm">cubic mm</item>
+        <item name="volumeunitcubiccm">cubic cm</item>
+        <item name="volumeunitcubicm">cubic m</item>
+        <item name="volumeunitcubicfeet">cubic feet</item>
+    </string-array>
+    <string-array name="currencyunit">
+        <item name="currencyunitusd">US Dollars</item>
+        <item name="currencyunitinr">Indian Rupees</item>
+    </string-array>
+
+    <string name="UC">Unit Converter</string>
+    <string name="NGG">Number Guessing Game</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

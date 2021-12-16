@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.GamesFragments"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Amazon_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:src="@drawable/amazon"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Amazon"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_below="@+id/Amazon_img"
+        android:clickable="true"
+        android:focusable="true"
+        android:text="Amazon"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/Amazon_img"
+        app:layout_constraintStart_toStartOf="@+id/Amazon_img"
+        app:layout_constraintTop_toBottomOf="@+id/Amazon_img"
+        tools:ignore="MissingConstraints,ObsoleteLayoutParam" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Flipkart_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:src="@drawable/flipkart"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintStart_toEndOf="@+id/Amazon_img"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Flipkart"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_row="1"
+        android:layout_column="9"
+        android:clickable="true"
+        android:text="Flipkart"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/Flipkart_img"
+        app:layout_constraintStart_toStartOf="@+id/Flipkart_img"
+        app:layout_constraintTop_toBottomOf="@+id/Flipkart_img"
+        tools:ignore="MissingConstraints" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Facebook_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="16dp"
+        android:clickable="true"
+        android:src="@drawable/fb_logo"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.59"
+        app:layout_constraintStart_toEndOf="@+id/Flipkart_img"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Facebook"
+        android:layout_width="81dp"
+        android:layout_height="26dp"
+        android:clickable="true"
+        android:text="Facebook"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/Facebook_img"
+        app:layout_constraintStart_toStartOf="@+id/Facebook_img"
+        app:layout_constraintTop_toBottomOf="@+id/Facebook_img"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Insta_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="44dp"
+        android:clickable="true"
+        android:src="@drawable/insta"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/Amazon_img"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Amazon_img"
+        app:layout_constraintTop_toBottomOf="@+id/Amazon"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/Insta"
+        android:layout_width="75dp"
+        android:layout_height="23dp"
+        android:clickable="true"
+        android:text="Instagram"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/Insta_img"
+        app:layout_constraintStart_toStartOf="@+id/Insta_img"
+        app:layout_constraintTop_toBottomOf="@+id/Insta_img"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/link_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="44dp"
+        android:clickable="true"
+        android:src="@drawable/link"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/Flipkart_img"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Flipkart_img"
+        app:layout_constraintTop_toBottomOf="@+id/Flipkart"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="81dp"
+        android:layout_height="26dp"
+        android:clickable="true"
+        android:text="LinkedIn"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/link_img"
+        app:layout_constraintStart_toStartOf="@+id/link_img"
+        app:layout_constraintTop_toBottomOf="@+id/link_img"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/tweet_img"
+        android:layout_width="98dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="44dp"
+        android:clickable="true"
+        android:src="@drawable/twitter"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_constraintEnd_toEndOf="@+id/Facebook_img"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Facebook_img"
+        app:layout_constraintTop_toBottomOf="@+id/Facebook"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tweet"
+        android:layout_width="74dp"
+        android:layout_height="25dp"
+        android:clickable="true"
+        android:text="Twitter"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="@+id/tweet_img"
+        app:layout_constraintStart_toStartOf="@+id/tweet_img"
+        app:layout_constraintTop_toBottomOf="@+id/tweet_img"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
